@@ -1,0 +1,81 @@
+Listusers
+Adduser user1
+Adduser user2
+Adduser user3
+Adduser user3
+Listusers
+Adduser user4
+Adduser user4
+Listusers
+SetUser user3
+Read
+Delete
+Delete
+Read
+Send user2
+Subject 1
+Message 11
+Message 12
+Message 13
+Message 14###
+Send user2
+Subject 2
+Message 21
+Message 22
+Message 23
+Message 24###
+Send user2
+Subject 3
+Message 31
+Message 32
+Message 33
+Message 34
+###
+Send user1
+Subject 4
+Message 41
+Message 42
+Message 43
+Message 44
+###
+Send user6
+Send user1
+Subject 4
+Message 41
+Message 42
+Message 43
+Message 44
+###
+Send user4
+Subject 4
+Message 41
+Message 42
+Message 43
+Message 44
+###
+Send user4
+Subject 4
+Message 41
+Message 42
+Message 43
+Message 44
+###
+Done
+SetUser user2
+Read
+Read
+Read
+Delete
+Delete
+Read
+Delete
+Read
+Done
+SetUser user4
+Read
+Send user1
+Subject jj
+Message hello
+###
+Done
+Quit

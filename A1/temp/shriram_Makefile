@@ -1,0 +1,7 @@
+Compile:
+	gcc classes.h
+	gcc command_processor.h
+	gcc -c client.c
+	gcc -c server.c
+	gcc client.o -o client
+	gcc server.o -o server

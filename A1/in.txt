@@ -1,0 +1,27 @@
+Listusers
+Adduser UserA
+Adduser UserB
+Adduser UserC
+Listusers
+SetUser UserA
+Read
+Send UserB
+How do you do?###
+Send UserC
+What is the time?###
+Send UserB
+Is the ATM working?###
+Send UserC
+Are you studying?###
+Done
+SetUser UserB
+Read
+Send UserA
+Where are you now?###
+Delete
+Done
+SetUser UserA
+Read
+Done 
+Quit
+
