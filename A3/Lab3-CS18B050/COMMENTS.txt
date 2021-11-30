@@ -1,0 +1,9 @@
+-----Comments-----
+
+CS3205 Assignment 3
+CS18B050 - Aniswar Srivatsa Krishnan
+
+This assignment helped us understand the celebrated the Open Shortest  Path First (OSPF) routing protocol in great detail. We understood the process by which the nods are able to construct the entire network topology with the help of link state advertisement packets. The assignment also familiarized me with multithreaded programs in C++. Writing multithreaded programs brings with it many challenges like synchronization, which we need to handle with the help of structures like mutexes. 
+When multiple paths to a destination have the same cost, OSPF allows multiple paths to be used (that is, a single path need not be chosen for carrying all traffic when multiple equal-cost paths exist). Finding all the paths can lead to exponential complexity. We can try to limit the number of paths to say a fixed small number like 5 and find them.
+We can implement authentication with the use of an algorithm like MD5. MD5 authentication is based on shared secret keys that are configured in all the routers. For each OSPF packet that it sends, the router computes the MD5 hash of the content of the OSPF packet appended with the secret key.  Then the router includes the resulting hash value in the OSPF packet. The receiving router, using the preconfigured secret key, will compute an MD5 hash of the packet and compare it with the hash value that the packet carries, thus verifying the packet’s authenticity. Sequence numbers are also used with MD5 authentication to protect against replay attacks.
+The Border Gateway Protocol (BGP) which is the inter-autonomous system protocol, can be implemented for getting an idea of how the internet works at the large scale.

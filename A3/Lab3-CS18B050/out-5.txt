@@ -1,0 +1,18 @@
+Routing Table for Node No. 5 at Time 20
+                        Destination                               Path                               Cost
+                                  0                              5-4-0                                 35
+                                  1                              5-4-1                                 44
+                                  2                              5-3-2                                 35
+                                  3                                5-3                                 13
+                                  4                                5-4                                 19
+                                  6                              5-3-6                                 33
+                                  7                              5-3-7                                 25
+Routing Table for Node No. 5 at Time 40
+                        Destination                               Path                               Cost
+                                  0                              5-4-0                                 80
+                                  1                              5-4-1                                 75
+                                  2                              5-3-2                                 52
+                                  3                                5-3                                 36
+                                  4                                5-4                                 49
+                                  6                                5-6                                 45
+                                  7                                5-7                                 43
